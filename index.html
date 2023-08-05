@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FreshFood</title>
+  <link rel="icon" href="./assets/images/icon.png" type="image/png" />
+  <link rel="stylesheet" href="./styles/normalize.css" />
+  <link rel="stylesheet" href="./styles/style-mobile.css" />
+  <link rel="stylesheet" href="./styles/style-tablet.css" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  
+</head>
+
+<body>
+  <header>
+    <div class="header__info">
+      <div class="info__container">
+        <div class="header__appeal">
+          <address class="header__email">
+            <img class="email__letter" src="./assets/vectors/letter.svg" alt="letter" />
+            <a class="email-letter__href" href="#">Hello@colorlib.com</a>
+          </address>
+          <div class="divide-white"></div>
+          <p class="info__p">Free Shipping for all order of $99</p>
+        </div>
+        <div class="header__contacts">
+          <div class="contacts__social">
+            <a href="#">
+              <img src="./assets/vectors/facebook.svg" alt="facebook" /></a>
+            <a href="#">
+              <img src="./assets/vectors/whatsapp.svg" alt="whatsapp" /></a>
+            <a href="#">
+              <img src="./assets/vectors/linkedin.svg" alt="linkedin" /></a>
+            <a href="#">
+              <img src="./assets/vectors/twitter.svg" alt="twitter" /></a>
+          </div>
+          <div class="contacts__language">
+            <img src="./assets/images/england_flag.png" alt="england_flag" />
+            <span class="header_info_span">English</span>
+            <button class="button__list">
+              <img src="./assets/vectors/arrow_down_white.svg" alt="arrow_down_white" />
+            </button>
+          </div>
+          <div class="divide-white"></div>
+          <div class="contacts__login">
+            <img src="./assets/vectors/person.svg" alt="login" />
+            <a href="#">Login</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header__main header-main">
+      <div class="header-main__container">
+        <div class="header-main__nav">
+          <a class="logo" href="#">
+            <img src="./assets/images/logo.png" alt="logo" /></a>
+          <nav class="header__nav">
+            <input type="checkbox" id="burger">
+            <label for="burger"><img class="burger_main" src="./assets/vectors/burger_black.svg" alt="burger"></label>
+            <ul class="header__ul__nav">
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">SHOP</a></li>
+              <li><a href="#">PAGES</a></li>
+              <li><a href="#">BLOG</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+          </nav>
+          <div class="header-main__buy header-main-buy">
+            <div class="header-main-buy__like header-main-buy-like">
+              <img src="./assets/vectors/like.svg" alt="like" />
+              <div class="header-main-buy-like__count">
+                <span>3</span>
+              </div>
+            </div>
+            <div class="header-main-buy__basket header-main-buy-basket">
+              <img src="./assets/vectors/bag.svg" alt="basket" />
+              <div class="header-main-buy-basket__count">
+                <span>3</span>
+              </div>
+            </div>
+            <div class="header-main-buy__price">
+              <span class="price__item"> item:</span>
+              <span class="price__number">$150.00</span>
+            </div>
+          </div>
+        </div>
+        <div class="header-main__categories header-main-categories">
+          <div class="header-main-categories__menu header-main-categories-menu">
+            <img src="./assets/vectors/burger.svg" alt="burger" />
+            <span class="header-main-categories-menu__name">All Department</span>
+            <button class="button__list">
+              <img src="./assets/vectors/arrow_down_white.svg" alt="arrow_down_white" />
+            </button>
+          </div>
+          <div class="header-main-categories__search header-main-categories-search">
+            <div class="header-main-categories-search__container">
+              <div class="header-main-categories-search__all header-main-categories-search-all">
+                <span class="header-main-categories-search-all__name">All Categories</span>
+                <button class="button__list">
+                  <img src="./assets/vectors/arrow_down_black.svg" alt="arrow_down_white" />
+                </button>
+
+                <div class="divide-gray"></div>
+                <div class="header-main-categories-search__input header-main-categories-search-input">
+                  <form>
+                    <input class="header-main-categories-search-input__input" type="search"
+                      placeholder="What do you need?" />
+                  </form>
+                </div>
+              </div>
+            </div>
+
+            <button class="button-green" type="submit">SEARCH</button>
+          </div>
+          <div class="header-main-categories__phone header-main-categories-phone">
+            <img class="header-main-categories-phone__image" src="./assets/vectors/phone.svg" alt="phone" />
+            <div class="header-main-categories-phone__description header-main-categories-phone-description">
+              <span
+                class="header-main-categories-phone-description__tel header-main-categories-phone-description-tel"><a
+                  href="”tel:+6511.188.888”">+65
+                  11.188.888</a></span>
+              <span class="header-main-categories-phone-description-tel_description">support 24/7 time</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="content">
+      <nav class="menu">
+        <ul class="menu__list">
+          <li><a href="#">Fresh Meat</a></li>
+          <li><a href="#">Vegetables</a></li>
+          <li><a href="#">Fruit & Nut Gifts</a></li>
+          <li><a href="#">Fresh Berries</a></li>
+          <li><a href="#">Ocean Foods</a></li>
+          <li><a href="#">Butter & Eggs</a></li>
+          <li><a href="#">Fastfood</a></li>
+          <li><a href="#">Fresh Onion</a></li>
+          <li><a href="#">Papayaya & Crisps</a></li>
+          <li><a href="#">Oatmeal</a></li>
+          <li><a href="#">Fresh Bananas</a></li>
+        </ul>
+      </nav>
+      <section class="shop">
+        <div class="shop__container">
+          <div class="left">
+            <span class="shop__fruitfresh">FRUIT FRESH</span>
+            <h1>Vegetable 100% Organic</h1>
+            <span class="shop__delivery">Free Pickup and Delivery Available</span>
+            <button class="button-green" type="submit">SHOP NOW</button>
+          </div>
+
+          <div class="right">
+            <img class="vegetableInFresh" src="assets/images/vegetableInFresh.png" alt="vegetableInFresh">
+          </div>
+        </div>
+      </section>
+<div class="shop__low" > 
+      <div class="fresh">
+               <button class="fresh__button">FRESH FRUIT</button> 
+      </div>
+      <div class="dried">
+                <button class="fresh__button">DRIED FRUIT</button> 
+      </div>
+      <div class="vegetables">
+         <button class="fresh__button">VEGETABLES</button> 
+      </div>
+      <div class="drink">
+        <button class="fresh__button">DRINK FRUITS</button> 
+    </div>
+          </div>
+        
+      </div>
+    <section class="letsJuice">
+      <div class="summerFruits">
+        <div class="summerFruits__container">
+          <h3>Summer Fruits</h3>
+          <h4>100% All Natural Fruit Juice</h4>
+          <button class="button-green"> SHOP NOW</button>
+          </div>
+      </div>
+
+      <div class="driedAndDrink">
+        <div class="driedAndDrink__container">
+          <h3>Dried & Drink Fruits</h3>
+          <h4>100% All Natural Fruit Juice</h4>
+                    <button class="button-green"> SHOP NOW</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="price">
+      <div class="price_selection-area-1">
+        <span class="price__text">Latest product</span>
+        <div class="buttons">
+          <button class="price_select-button">
+            <img class="price_select-button-button" src="./assets/images/arrow_left.png" alt="arrow_left" />
+          </button>
+          <button class="price_select-button">
+            <img class="price_select-button-button" src="./assets/images/arrow_right.png" alt="arrow_right" />
+          </button>
+        </div>
+      </div>
+
+      <div class="price_selection-area-2">
+        <span class="price__text">Top rated Products</span>
+        <div class="buttons">
+          <button class="price_select-button">
+            <img class="price_select-button-button" src="./assets/images/arrow_left.png" alt="arrow_left" />
+          </button>
+          <button class="price_select-button">
+            <img class="price_select-button-button" src="./assets/images/arrow_right.png" alt="arrow_right" />
+          </button>
+        </div>
+      </div>
+
+      <div class="price_selection-area-3">
+        <span class="price__text">Review Products</span>
+        <div class="buttons">
+          <button class="price_select-button">
+            <img src="./assets/images/arrow_left.png" alt="arrow_left" />
+          </button>
+          <button class="price_select-button">
+            <img src="./assets/images/arrow_right.png" alt="arrow_right" />
+          </button>
+        </div>
+      </div>
+
+      <div class="price__products">
+        <img class="price__products_img" src="./assets/images/price_cauliflower.png" alt="cauliflower" />
+        <div class="price_text_area">
+          <span class="price__product-text">Cauliflower</span>
+          <span class="price_product-text-price">$30.00</span>
+        </div>
+      </div>
+      <div class="price__products">
+        <img class="price__products_img" src="./assets/images/price_quince.png" alt="quince" />
+        <div class="price_text_area">
+          <span class="price__product-text">Organic quince</span>
+          <span class="price_product-text-price">$30.00</span>
+        </div>
+      </div>
+      <div class="price__products">
+        <img class="price__products_img" src="./assets/images/price_tomato.png" alt="tomato" />
+        <div class="price_text_area">
+          <span class="price__product-text">Tomato hybrid</span>
+          <span class="price_product-text-price">$30.00</span>
+        </div>
+      </div>
+
+      <div class="price__products">
+        <img class="price__products_img" src="./assets/images/price_blueberry.png" alt="blueberry" />
+        <div class="price_text_area">
+          <span class="price__product-text">Blueberry</span>
+          <span class="price_product-text-price">$30.00</span>
+        </div>
+      </div>
+
+      <div class="price__products">
+        <img class="price__products_img" src="./assets/images/price_capsicum.png" alt="capsicum" />
+        <div class="price_text_area">
+          <span class="price__product-text">Capsicum-green</span>
+          <span class="price_product-text-price">$30.00</span>
+        </div>
+      </div>
+
+      <div class="price__products">
+        <img class="price__products_img" src="./assets/images/price_pomegranate.png" alt="pomegranate" />
+        <div class="price_text_area">
+          <span class="price__product-text">Pomegranate</span>
+          <span class="price_product-text-price">$30.00</span>
+        </div>
+      </div>
+
+      <div class="price__products-3">
+        <img src="./assets/images/price_hazelnuts.png" alt="hazelnuts" />
+        <div class="price_text_area">
+          <span class="price__product-text">Hazelnuts Filbert</span>
+          <span class="price_product-text-price">$30.00</span>
+        </div>
+      </div>
+
+      <div class="price__products-3">
+        <img src="./assets/images/price_apple.png" alt="apple" />
+        <div class="price_text_area">
+          <span class="price__product-text">Green Apple</span>
+          <span class="price_product-text-price">$30.00</span>
+        </div>
+      </div>
+
+      <div class="price__products-3">
+        <img src="./assets/images/price_raspberry.png" alt="raspberry" />
+        <div class="price_text_area">
+          <span class="price__product-text">Fresh Raspberry</span>
+          <span class="price_product-text-price">$30.00</span>
+        </div>
+      </div>
+
+    </div>
+
+    <section class="featured">
+      <div class="featured-name">Featured Product</div>
+      <div class="featured-line">
+        <div class="featured-line-line"></div>
+      </div>
+      <div class="featured-menu">
+        <div class="featured-menu-all">All</div>
+        <div class="featured-menu-oranges">Oranges</div>
+        <div class="featured-menu-freshmeat">Fresh meat</div>
+        <div class="featured-menu-vegatables">Vegatables</div>
+        <div class="featured-menu-fastfood">Fastfood</div>
+      </div>
+      <section class="featured-products">
+        <div class="featured-product-1">
+          <img class="featured-product-foto" src="assets/images/futured_bananas.png" alt="bananas">
+          <button class="featured-product-name">
+            <span class="price__product-text">Bunch of bananas</span>
+            <span class="price__product-text-price">$30.00</span>
+          </button>
+        </div>
+        <div class="featured-product-2">
+          <img class="featured-product-foto" src="assets/images/futured_apricot.png" alt="apricot">
+          <button class="featured-product-name">
+            <span class="price__product-text">Fresh organic apricot</span>
+            <span class="price__product-text-price">$30.00</span>
+            
+          </button>
+        </div>
+        <div class="featured-product-3">
+          <img class="featured-product-foto" src="assets/images/futured_avocado.png" alt="avocado">
+          <button class="featured-product-name">
+            <span class="price__product-text">Avokado fruit</span>
+            <span class="price__product-text-price">$30.00</span>
+          </button>
+        </div>
+        <div class="featured-product-4">
+          <img class="featured-product-foto" src="assets/images/futured_redapple.png" alt="red_apple">
+          <button class="featured-product-name">
+            <span class="price__product-text">Red apple</span>
+            <span class="price__product-text-price">$30.00</span>
+          </button>
+        </div>
+        <div class="featured-product-5">
+          <img class="featured-product-foto" src="assets/images/futured_figs.png" alt="figs">
+          <button class="featured-product-name">
+            <span class="price__product-text">Two fresh figs</span>
+            <span class="price__product-text-price">$30.00</span>
+          </button>
+        </div>
+        <div class="featured-product-6">
+          <img class="featured-product-foto" src="assets/images/futured_cucumber.png" alt="cucumber">
+          <button class="featured-product-name">
+            <span class="price__product-text">Cucumber</span>
+            <span class="price__product-text-price">$30.00</span>
+          </button>
+          </div>
+        <div class="featured-product-7">
+          <img class="featured-product-foto" src="assets/images/futured_beef.png" alt="beef">
+          <button class="featured-product-name">
+            <span class="price__product-text">Beef steak</span>
+            <span class="price__product-text-price">$30.00</span>
+                  </button>
+        </div>
+        <div class="featured-product-8">
+          <img class="featured-product-foto" src="assets/images/futured_broccoli.png" alt="broccoli">
+          <button class="featured-product-name">
+            <span class="price__product-text">Raw broccoli</span>
+            <span class="price__product-text-price">$30.00</span>
+                        
+          </button>
+        </div>
+
+      </section>
+    </section>
+    <section class="the_blog">
+      <div class="theblog_header">
+        <h2>From The Blog</h2>
+        <div class="theblog">
+          <div class="theblog-blog"></div>
+        </div>
+      </div>
+      <div class="flexcontainer_theblog">
+        <div class="theblog-nav">
+          <img class="theblog-foto" src="./assets/images/salad.png" alt="salad">
+          <div class="theblog-div1">
+            <img src="./assets/vectors/may.svg" alt="may">
+            <span class="theblog-p-20">May 4,2021</span>
+            <img src="./assets/vectors/comment.svg" alt="comment">
+            <span class="theblog-p-15">54</span>
+          </div>
+          <p class="theblog-p-11">Busting Salad Myths: Eat a Well-Built Salad (If You Want To)</p>
+          <p class="theblog-p-10">This is usually said when someone is trying to lose weight or be “super healthy.”
+            First, to lose weight, it is widely understood that we must burn more calories than we eat. Thus <a
+              class="read_more" href="#">Read More</a>
+          </p>
+        </div>
+        <div class="theblog-main">
+
+          <img class="theblog-foto" src="./assets/images/vitamin_c.png" alt="vit_c">
+          <div class="theblog-div2">
+            <img src="./assets/vectors/may.svg" alt="may">
+            
+            <span class="theblog-p-20">May 4,2021</span>
+            <img src="./assets/vectors/comment.svg" alt="comment">
+            <span class="theblog-p-15">54</span>
+          </div>
+          <p class="theblog-p-11">Vitamin C: How Much and Which
+            Sources Are Best for Boosting Immunity?</p>
+          <p class="theblog-p-10">This is usually said when someone is trying to lose weight or be “super healthy.”
+            First, to lose weight, it is widely understood that we must burn more calories than we eat. Thus <a
+              class="read_more" href="#">Read More</a>
+          </p>
+
+        </div>
+        <div class="theblog-sidebar">
+          <img class="theblog-foto" src="./assets/images/smouz.png" alt="smoothies">
+          <div class="theblog-div3">
+            <img src="./assets/vectors/may.svg" alt="may">
+            
+            <span class="theblog-p-20">May 4,2021</span>
+            <img src="./assets/vectors/comment.svg" alt="comment">
+            <span class="theblog-p-15">54</span>
+          </div>
+          <p class="theblog-p-11">Pump Up the Produce Power in Winter Meals</p>
+          <p class="theblog-p-10">We’ve all been here before: When it seems the long, gray winter will never end and
+            you make one more pot of hearty vegetable soup or another casserole; <a class="read_more" href="#">Read
+              More</a></p>
+
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__logo__address">
+        <div class="footer__logo">
+          <a href="#">
+            <img src="assets/images/logo_footer.svg" alt="logo">
+          </a>
+        </div>
+        <div class="footer__address">
+          <p>
+            Address: 60-49 Road 11378 New York <br>
+            Phone: +65 11.188.888 <br>
+            Email: hello@colorlib.com <br>
+          </p>
+        </div>
+      </div>
+      <div class="footer__nav__about-us">
+        <nav class="footer-nav">
+          <h4> Useful link</h4>
+          <ul class="footer-nav__useful-link">
+            <li> <a href="#"> About Us </a></li>
+            <li> <a href="#"> About Our Shop </a></li>
+            <li> <a href="#"> Secure Shopping </a></li>
+            <li> <a href="#"> Delivery infomation </a></li>
+            <li> <a href="#"> Privacy Policy </a></li>
+            <li> <a href="#"> Our Sitemap </a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__nav">
+        <nav class="footer-nav">
+          <ul class="footer-nav__list">
+            <li> <a href="#"> Who We Are </a></li>
+            <li> <a href="#"> Our Services </a></li>
+            <li> <a href="#"> Projects </a></li>
+            <li> <a href="#"> Contact </a></li>
+            <li> <a href="#"> Innovation </a></li>
+            <li> <a href="#"> Testimonials</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__email">
+        <h4> Sign up for our newsletter </h4>
+        <p> get e-mail updates about our latest Shop and special offers.</p>
+        <form>
+          <input class="footer__email__form" type="email" placeholder="Enter Email Address" />
+          <button class="button-green" type="submit"> SUBSCRIBE </button>
+        </form>
+        <div class="footer__contacts__social">
+          <a href="#">
+            <img src="./assets/vectors/facebook.svg" alt="facebook" /></a>
+          <a href="#">
+            <img src="./assets/vectors/whatsapp.svg" alt="whatsapp" /></a>
+          <a href="#">
+            <img src="./assets/vectors/linkedin.svg" alt="linkedin" /></a>
+          <a href="#">
+            <img src="./assets/vectors/twitter.svg" alt="twitter" /></a>
+        </div>
+      </div>
+      <div class="footer__rights">
+        <p> Copyright ©2021 All rights reserved | This template is made with 💚 by LOGO</p>
+      </div>
+      <div class="footer__payment">
+        <a href="#">
+          <img src="./assets/vectors/footer_payment_icon.svg" alt="payment" /></a>
+      </div>
+
+    </div>
+  </footer>
+</body>
+
+</html>

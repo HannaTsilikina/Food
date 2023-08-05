@@ -1,0 +1,197 @@
+.foto{
+    width: 367px;
+height: 259px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat, #C4C4C4;
+}
+.p{
+    display: flex;
+width:304px;
+height: 22px;
+flex-direction: column;
+justify-content: center;
+text-align:center;
+flex-shrink: 0;
+color: #2A2A2A;
+text-align: center;
+font-family: Cerebri Sans Pro;
+font-size: 34px;
+font-style: normal;
+font-weight: 900;
+line-height: 50px; /* 147.059% */
+}
+.paragraf{
+    display: flex;
+width: 347px;
+height: 44px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #2A2A2A;
+font-family: Cerebri Sans Pro;
+font-size: 20px;
+font-style: normal;
+font-weight: 900;
+line-height: 30px; /* 150% */
+text-transform: capitalize;
+}
+.p-0{
+    display: flex;
+width: 367px;
+height: 86px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #757575;
+font-family: Cerebri Sans Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+text-transform: capitalize;
+
+}
+.p-1{
+    display: flex;
+    width: 366px;
+    height: 74px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #2A2A2A;
+    font-family: Cerebri Sans Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 30px; /* 150% */
+    text-transform: capitalize;
+}
+.p-2{
+    display: flex;
+    width: 367px;
+    height: 102px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #757575;
+    font-family: Cerebri Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    text-transform: capitalize;
+
+}
+.p-3{
+    display: flex;
+    width: 367px;
+    height: 44px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #2A2A2A;
+    font-family: Cerebri Sans Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 30px; /* 150% */
+    text-transform: capitalize;
+
+}
+.p-4{
+    display: flex;
+    width: 367px;
+    height: 86px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #757575;
+    font-family: Cerebri Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    text-transform: capitalize;
+
+
+}
+.svg{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+
+}
+.date{
+    display: flex;
+    width: 1%;
+    height: 2%;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #757575;
+    font-family: Cerebri Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.flexcontainer{
+display: flex;
+flex-direction: row;
+
+
+}
+.nav{
+    margin: 2%;
+}
+.sidebar{
+    margin: 2%;
+}
+.main{
+    margin: 2%;
+}
+.h{
+    width: 80px;
+    height: 4px;
+    flex-shrink: 0;
+    background: #7FAD39;
+}
+.h3{
+    display: flex;
+    width: 88px;
+    height: 13px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #757575;
+font-family: Cerebri Sans Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+
+}
+.svg2{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+
+}
+.p-5{
+    display: flex;
+width: 24px;
+height: 13px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #757575;
+font-family: Cerebri Sans Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
